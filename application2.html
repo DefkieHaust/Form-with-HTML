@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Application Form</title>
+  <style>
+    input.underline{
+      border: none;
+      border-bottom: 1px solid black;
+      outline: none;
+      background-color: transparent;
+      text-align: left;
+    }
+    input.invisible{
+      border: none;
+      outline: none;
+      background-color: transparent;
+      text-align: center;
+    }
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+      width: 100%;
+      table-layout: fixed;
+    }
+    td {
+      border: 2px solid #77b3c8;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      border: 1px solid #d3d3d3;
+      padding: 8px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body bgcolor="#e2eefa" style="width: 970px;">
+  <form>
+    <!-- First Heading -->
+    <div 
+      style="
+        background-color: rgb(99, 134, 165);
+        height: 30px;
+        width: 98%;
+        margin-right: auto;
+        margin-left: auto;
+    ">
+      <p style="
+        position: relative; 
+        top: 5px;
+        left: 7px;
+      ">
+        <font color="white">A.General Questions
+      </p>
+    </div>
+    <!-- Name Input -->
+    <br>
+    <div style="
+      width: 95%;
+      margin-left: auto;
+      margin-right: auto;
+      "
+    >
+      <label for="name1">
+        <font color="black">
+        Purposed Insured's Name:
+      </label>
+      <div id="name1" style="
+        background-color: white;
+        width: 100px;
+        display: inline-table;
+        width: 78%;
+        height: 40px;
+        float: right;
+      ">
+        <table style="height: 100%;">
+          <tr>
+            <th>
+              <input 
+                class="invisible" 
+                type="text" 
+                name="name1" 
+                maxlength="23"
+                style="
+                  position: absolute;
+                  height: 30px;
+                  margin-top: -16px;
+                  margin-left: -7px;
+                  width: 720px;
+                  letter-spacing: 0.96em;
+                  font-size: 20px;
+                  text-align: left;
+                  padding-left: -30px;
+                  font-family: monospace;
+                "
+              >
+            </th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+        </table>
+      </div>
+      <!-- <input -->
+      <!--   id="name1" -->
+      <!--   type="text" -->
+      <!--   name="name1" -->
+      <!--   style=" -->
+      <!--     font-size: 20px; -->
+      <!--     width: 75%; -->
+      <!--     height: 25px; -->
+      <!--     padding: 8px; -->
+      <!--     border: 1px solid #ccc; -->
+      <!--     letter-spacing: 0.5em; -->
+      <!--   " -->
+      <!-- > -->
+      <p style="
+        float: left;
+        font-size: 12px;
+        margin-top: 0%;
+        ">
+        (Please use capital letters)
+      </p>
+    </div>
+    <br><br>
+    <!-- Underline inputs -->
+    <div style="
+      width: 95%;
+      margin-left: auto;
+      margin-right: auto;
+      "
+    >
+      <!-- date of birth input -->
+      <label for="bd1">Birth Date:</label>
+      <input
+        type="date" 
+        id="bd1" 
+        class="underline" 
+        name="bd"
+        max="2023-02-25"
+        style="
+          width: 35%;
+          font-size: 23px;
+        "
+      >
+      <!-- Gender input -->
+      <label for="gender1" style="padding-right: 10px;">
+        &emsp;Gender:
+      </label>
+      <input id="gender1" type="radio" name="gender">Male&emsp;
+      <input id="gender1" type="radio" name="gender">Female
+      <br><br>
+      <!-- Address input -->
+      <label for="addr1">Address:</label>
+      <input 
+        id="addr1" 
+        class="underline" 
+        type="text" 
+        name="addr"
+        style="
+         width: 90%;
+         font-size: 23px;
+        "
+      >
+      <br><br>
+      <!-- Phone Number input -->
+      <label for="pn1">Phone Number:</label>
+      <input 
+        id="pn1"
+        class="underline"
+        type="number" 
+        name="pn" 
+        style="
+          width: 33%;
+          font-size: 23px;
+        "
+      >
+      <!-- Email Address input -->
+      <label for="email1">&emsp;Email Address:&emsp;</label>
+      <input
+        type="email"
+        id="email1"
+        class="underline"
+        name="mail"
+        style="
+          width: 35%;
+          font-size: 23px;
+        "
+      >
+      <br><br>
+      <!-- ID Number input -->
+      <label for="id1">ID Number:</label>
+      <input 
+        id="id1"
+        class="underline"
+        type="number" 
+        name="id" 
+        style="
+          width: 33%;
+          font-size: 23px;
+        "
+      >
+      <!-- Social Security Number input -->
+      <label for="ssn1">&emsp;Social Security Number:&emsp;</label>
+      <input
+        type="number"
+        id="ssn1"
+        class="underline"
+        name="ssn"
+        style="
+          width: 32%;
+          font-size: 23px;
+        "
+      >
+      <br><br>
+      <!-- Status input -->
+      <label for="status1" style="padding-right: 10px;">
+        Status:
+      </label>
+      <input id="status1" type="radio" name="status">Single&emsp;
+      <input id="status1" type="radio" name="status">Married&emsp;
+      <input id="status1" type="radio" name="status">Divorced&emsp;
+      <input id="status1" type="radio" name="status">Others
+      <br><br>
+      <!-- Occupation input -->
+      <label for="ocp1">Occupation:</label>
+      <input
+        type="test" 
+        id="ocp1" 
+        class="underline" 
+        name="ocp"
+        style="
+          width: 37%;
+          font-size: 23px;
+        "
+      >
+      <!-- Retiree status input -->
+      <label for="retiree1" style="padding-right: 10px;">
+        &emsp;Are you a retiree?
+      </label>
+      <input id="retiree1" type="radio" name="retiree">Yes&emsp;
+      <input id="retiree1" type="radio" name="retiree">No
+      <br><br>
+    </div>
+    <!-- Second Heading -->
+    <div 
+      style="
+        background-color: rgb(99, 134, 165);
+        height: 30px;
+        width: 98%;
+        margin-right: auto;
+        margin-left: auto;
+    ">
+      <p style="position: relative; top: 5px;left: 7px;">
+        <font color="white">B.Type of Health Coverage
+      </p>
+    </div>
+    <br>
+    <!-- Table input -->
+    <div style="
+      background-color: white;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      "
+    >
+      <table>
+        <tr>
+          <td rowspan="2">
+            <!-- Employee input -->
+            <label for="emp1" style="padding-right: 25px;">
+              <font color="black">
+              Employee:
+            </label>
+            <input id="emp1" type="radio" name="emp">Yes
+            <input id="emp1" type="radio" name="emp">No
+            <br><br>
+            <!-- Plan choice 1 input -->
+            <label for="pc1">Plan choice:</label>
+            <input
+              id="pc1"
+              class="invisible"
+              type="text" 
+              name="pc"
+              style="
+                width: 45%;
+                font-size: 15px;
+              "
+            >
+          </td>
+          <td>
+            <!-- Spouse input -->
+            <label for="sps1" style="padding-right: 25px;">
+              <font color="black">
+              Spouse:
+            </label>
+            <input id="sps1" type="radio" name="sps">Yes
+            <input id="sps1" type="radio" name="sps">No
+            <br><br>
+            <!-- Plan choice 2 input -->
+            <label for="pc2">Plan choice:</label>
+            <input
+              id="pc2"
+              class="invisible"
+              type="text" 
+              name="pc"
+              style="
+                width: 45%;
+                font-size: 15px;
+              "
+            >
+          </td>
+          <td>
+            <!-- Children input -->
+            <label for="cdrn1" style="padding-right: 25px;">
+              <font color="black">
+              Children:
+            </label>
+            <input id="cdrn1" type="radio" name="cdrn">Yes
+            <input id="cdrn1" type="radio" name="cdrn">No
+            <br><br>
+            <!-- Plan choice 3 input -->
+            <label for="pc2">Plan choice:</label>
+            <input
+              id="pc3"
+              class="invisible"
+              type="text" 
+              name="pc"
+              style="
+                width: 45%;
+                font-size: 15px;
+              "
+            >
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div style="
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      "
+    >
+      <p>
+        <font color="black">
+        Complete If Spouse/Children are Proposed for Insurance:
+      </p>
+    </div>
+    <div style="
+      background-color: white;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      "
+    >
+      <table>
+        <!-- Second input table -->
+        <tr>
+          <td style="width: 28%;">
+            Name
+          </td>
+          <td style="width: 22%;">
+            SSN No.
+          </td>
+          <td style="width: 22%;">
+            Relationship to <br> proposed insured
+          </td>
+          <td style="width: 9%;">
+            Birth <br> Date
+          </td>
+          <td style="width: 9%;">
+            Age
+          </td>
+          <td style="width: 10%;">
+            Sex
+          </td>
+        </tr>
+        <tr>
+          <td style="width: 28%;">
+            <input type="text" class="invisible">
+          </td>
+          <td style="width: 22%;">
+            <input 
+              type="text" 
+              class="invisible"
+              style="
+                width: 100%;
+              "
+            >
+          </td>
+          <td style="width: 22%;">
+            <input 
+              type="text" 
+              class="invisible"
+              style="
+                width: 100%;
+              "
+            >
+          </td>
+          <td style="width: 9%;">
+            <input 
+              type="date" 
+              class="invisible"
+              max="2023-02-25"
+              style="
+                width: 100%;
+              "
+            >
+          </td>
+          <td style="width: 9%;">
+            <input 
+              type="number" 
+              class="invisible"
+              min="1"
+              max="99"
+              style="
+                width: 100%;
+              "
+            >
+          </td>
+          <td style="width: 10%;">
+            <input 
+              type="text"
+              class="invisible"
+              style="
+                width: 100%;
+              "
+            >
+          </td>
+        </tr>
+        <tr>
+          <td style="width: 28%;">
+            <input type="text" class="invisible">
+          </td>
+          <td style="width: 22%;">
+            <input 
+              type="text" 
+              class="invisible"
+              style="
+                width: 100%;
+              "
+            >
+          </td>
+          <td style="width: 22%;">
+            <input 
+              type="text" 
+              class="invisible"
+              style="
+                width: 100%;
+              "
+            >
+          </td>
+          <td style="width: 9%;">
+            <input 
+              type="date" 
+              class="invisible"
+              max="2023-02-25"
+              style="
+                width: 100%;
+              "
+            >
+          </td>
+          <td style="width: 9%;">
+            <input 
+              type="number" 
+              class="invisible"
+              min="1"
+              max="99"
+              style="
+                width: 100%;
+              "
+            >
+          </td>
+          <td style="width: 10%;">
+            <input 
+              type="text"
+              class="invisible"
+              style="
+                width: 100%;
+              "
+            >
+          </td>
+        </tr>
+        <tr>
+          <td style="width: 28%;">
+            <input type="text" class="invisible">
+          </td>
+          <td style="width: 22%;">
+            <input 
+              type="text" 
+              class="invisible"
+              style="
+                width: 100%;
+              "
+            >
+          </td>
+          <td style="width: 22%;">
+            <input 
+              type="text" 
+              class="invisible"
+              style="
+                width: 100%;
+              "
+            >
+          </td>
+          <td style="width: 9%;">
+            <input 
+              type="date" 
+              class="invisible"
+              max="2023-02-25"
+              style="
+                width: 100%;
+              "
+            >
+          </td>
+          <td style="width: 9%;">
+            <input 
+              type="number" 
+              class="invisible"
+              min="1"
+              max="99"
+              style="
+                width: 100%;
+              "
+            >
+          </td>
+          <td style="width: 10%;">
+            <input 
+              type="text"
+              class="invisible"
+              style="
+                width: 100%;
+              "
+            >
+          </td>
+        </tr>
+        <tr>
+          <td style="width: 28%;">
+            <input type="text" class="invisible">
+          </td>
+          <td style="width: 22%;">
+            <input 
+              type="text" 
+              class="invisible"
+              style="
+                width: 100%;
+              "
+            >
+          </td>
+          <td style="width: 22%;">
+            <input 
+              type="text" 
+              class="invisible"
+              style="
+                width: 100%;
+              "
+            >
+          </td>
+          <td style="width: 9%;">
+            <input 
+              type="date" 
+              class="invisible"
+              max="2023-02-25"
+              style="
+                width: 100%;
+              "
+            >
+          </td>
+          <td style="width: 9%;">
+            <input 
+              type="number" 
+              class="invisible"
+              min="1"
+              max="99"
+              style="
+                width: 100%;
+              "
+            >
+          </td>
+          <td style="width: 10%;">
+            <input 
+              type="text"
+              class="invisible"
+              style="
+                width: 100%;
+              "
+            >
+          </td>
+        </tr>
+      </table>
+    </div>
+    <!-- Third Heading -->
+    <div 
+      style="
+        background-color: rgb(99, 134, 165);
+        height: 30px;
+        width: 98%;
+        margin-right: auto;
+        margin-left: auto;
+      "
+    >
+      <p style="position: relative; top: 5px;left: 7px;">
+        <font color="white">C.The Policy
+      </p>
+    </div>
+    <br>
+    <!-- Underline 2 input -->
+    <div style="
+      width: 95%;
+      margin-left: auto;
+      margin-right: auto;
+      "
+    >
+      <font color="black">
+      <!-- Units input -->
+      <label for="units1">Units:</label>
+      <input 
+        id="units1"
+        class="underline"
+        type="number" 
+        name="units" 
+        style="
+          width: 38%;
+          font-size: 23px;
+        "
+      >
+      <!-- Annual Premium input -->
+      <label for="ap1">&emsp;Annual Premium:&emsp;</label>
+      <input
+        type="number"
+        id="ap1"
+        class="underline"
+        name="ap"
+        style="
+          width: 36%;
+          font-size: 23px;
+        "
+      >
+      <br><br>
+      <!-- Payment mode input -->
+      <label for="pm1" style="padding-right: 20px;">
+        Payment Mode:
+      </label>
+      <input id="pm1" type="radio" name="pm">Annual&emsp;&emsp;
+      <input id="pm1" type="radio" name="pm">Semi-Annual&emsp;&emsp;
+      <input id="pm1" type="radio" name="pm">Monthly PAT (complete PAT card)
+      <br><br>
+      <!-- Cash with Application input -->
+      <label for="cwa1">Cash with Application:&emsp;$</label>
+      <input 
+        id="cwa1" 
+        class="underline" 
+        type="number" 
+        name="cwa"
+        style="
+         width: 77%;
+         font-size: 23px;
+         text-align: left;
+        "
+      >
+      <br><br>
+      <!-- Planned modal premium input -->
+      <label for="pmp1">Planned modal premium:&emsp;$</label>
+      <input 
+        id="pmp1" 
+        class="underline" 
+        type="number" 
+        name="pmp"
+        style="
+         width: 75%;
+         font-size: 23px;
+        "
+      >
+      <br>
+      <div style="
+          display: inline-block;
+          width: 56%;
+          color: #78b9da;
+        "
+      >
+        <!-- Terms and Conditions text -->
+        <h5>Terms & Conditions</h5>
+        <p style="
+          font-size: 12px;
+          margin-top: -4%;
+        ">
+          Improvement should be measured regularly and assessed in order for you to know what's beneficial and what is not. This will help you set new targets.
+        </p>
+      </div>
+      <div style="
+        display: inline-block;
+        position: relative;
+        height: 80px;
+        top: 20px;
+        width: 43%;
+        color: black;
+        "
+      >
+        <!-- Signature input -->
+        <label for="sign">Signature:</label>
+        <table style="background-color: white"
+          <tr>
+            <td>
+              <input 
+                id="sign"
+                class="invisible"
+                type="text" 
+                name="s1"
+                style="
+                  font-size: 20px;
+                "
+              >
+            </td>
+          </tr>
+        </table>
+        <!-- Current date input -->
+        <label for="date1">Date</label>
+        <input 
+          id="date1"
+          class="underline"
+          type="date" 
+          name="d1"
+          style="
+            width: 85%;
+            font-size: 23px;
+          "
+        >
+      </div>
+    </div>
+  </form>
+</body>
+</html>
